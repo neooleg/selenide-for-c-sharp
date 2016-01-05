@@ -33,31 +33,31 @@ namespace com.codeborne.selenide {
         
         internal static global::net.sf.jni4net.jni.MethodId j4n_selectRadio7;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$8;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S8;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$9;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S9;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$10;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S10;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$11;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S11;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$12;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S12;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$13;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S13;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$14;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S14;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$15;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_S15;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$$16;
-        
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$$17;
-        
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$$18;
-        
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$$19;
-        
-        internal static global::net.sf.jni4net.jni.MethodId j4n_$$20;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_SS16;
+
+        internal static global::net.sf.jni4net.jni.MethodId j4n_SS17;
+
+        internal static global::net.sf.jni4net.jni.MethodId j4n_SS18;
+
+        internal static global::net.sf.jni4net.jni.MethodId j4n_SS19;
+
+        internal static global::net.sf.jni4net.jni.MethodId j4n_SS20;
         
         internal static global::net.sf.jni4net.jni.MethodId j4n_screenshot21;
         
@@ -155,25 +155,25 @@ namespace com.codeborne.selenide {
             global::com.codeborne.selenide.Selenide.j4n_actions6 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "actions", "()Lorg/openqa/selenium/interactions/Actions;");
             global::com.codeborne.selenide.Selenide.j4n_selectRadio7 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "selectRadio", "(Lorg/openqa/selenium/By;Ljava/lang/String;)Lcom/codeborne/selenide/SelenideEleme" +
                     "nt;");
-            global::com.codeborne.selenide.Selenide.j4n_$8 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/By;I)Lcom/codeborne/selenide/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$9 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Selen" +
+            global::com.codeborne.selenide.Selenide.j4n_S8 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/By;I)Lcom/codeborne/selenide/SelenideElement;");
+            global::com.codeborne.selenide.Selenide.j4n_S9 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Selen" +
                     "ideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$10 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$11 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;I)Lcom/codeborne/selenid" +
+            global::com.codeborne.selenide.Selenide.j4n_S10 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/SelenideElement;");
+            global::com.codeborne.selenide.Selenide.j4n_S11 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;I)Lcom/codeborne/selenid" +
                     "e/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$12 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
+            global::com.codeborne.selenide.Selenide.j4n_S12 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
                     "/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$13 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;I)Lcom/codeborne/selenide/Sele" +
+            global::com.codeborne.selenide.Selenide.j4n_S13 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;I)Lcom/codeborne/selenide/Sele" +
                     "nideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$14 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Ljava/lang/String;I)Lcom/codeborne/selenide/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$15 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Ljava/lang/String;)Lcom/codeborne/selenide/SelenideElement;");
-            global::com.codeborne.selenide.Selenide.j4n_$$16 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Eleme" +
+            global::com.codeborne.selenide.Selenide.j4n_S14 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Ljava/lang/String;I)Lcom/codeborne/selenide/SelenideElement;");
+            global::com.codeborne.selenide.Selenide.j4n_S15 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$", "(Ljava/lang/String;)Lcom/codeborne/selenide/SelenideElement;");
+            global::com.codeborne.selenide.Selenide.j4n_SS16 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Eleme" +
                     "ntsCollection;");
-            global::com.codeborne.selenide.Selenide.j4n_$$17 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/ElementsCollection;");
-            global::com.codeborne.selenide.Selenide.j4n_$$18 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
+            global::com.codeborne.selenide.Selenide.j4n_SS17 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/ElementsCollection;");
+            global::com.codeborne.selenide.Selenide.j4n_SS18 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
                     "/ElementsCollection;");
-            global::com.codeborne.selenide.Selenide.j4n_$$19 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Ljava/lang/String;)Lcom/codeborne/selenide/ElementsCollection;");
-            global::com.codeborne.selenide.Selenide.j4n_$$20 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Ljava/util/Collection;)Lcom/codeborne/selenide/ElementsCollection;");
+            global::com.codeborne.selenide.Selenide.j4n_SS19 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Ljava/lang/String;)Lcom/codeborne/selenide/ElementsCollection;");
+            global::com.codeborne.selenide.Selenide.j4n_SS20 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "$$", "(Ljava/util/Collection;)Lcom/codeborne/selenide/ElementsCollection;");
             global::com.codeborne.selenide.Selenide.j4n_screenshot21 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "screenshot", "(Ljava/lang/String;)Ljava/lang/String;");
             global::com.codeborne.selenide.Selenide.j4n_getJavascriptErrors22 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "getJavascriptErrors", "()Ljava/util/List;");
             global::com.codeborne.selenide.Selenide.j4n_executeJavaScript23 = @__env.GetStaticMethodID(global::com.codeborne.selenide.Selenide.staticClass, "executeJavaScript", "(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;");
@@ -270,112 +270,112 @@ namespace com.codeborne.selenide {
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/By;I)Lcom/codeborne/selenide/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0, int par1) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0, int par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$8, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S8, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Selen" +
             "ideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0, global::java.lang.String par1) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0, global::java.lang.String par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$9, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S9, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$10, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S10, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;I)Lcom/codeborne/selenid" +
             "e/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0, global::java.lang.Object par1, int par2) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0, global::java.lang.Object par1, int par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$11, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S11, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par2)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
             "/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0, global::java.lang.Object par1) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0, global::java.lang.Object par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$12, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S12, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Ljava/lang/String;I)Lcom/codeborne/selenide/Sele" +
             "nideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.Object par0, global::java.lang.String par1, int par2) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.Object par0, global::java.lang.String par1, int par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$13, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S13, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par2)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;I)Lcom/codeborne/selenide/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.String par0, int par1) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.String par0, int par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$14, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S14, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)Lcom/codeborne/selenide/SelenideElement;")]
-        public static global::com.codeborne.selenide.SelenideElement $(global::java.lang.String par0) {
+        public static global::com.codeborne.selenide.SelenideElement S(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$15, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_S15, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Ljava/lang/String;)Lcom/codeborne/selenide/Eleme" +
             "ntsCollection;")]
-        public static global::com.codeborne.selenide.ElementsCollection $$(global::java.lang.Object par0, global::java.lang.String par1) {
+        public static global::com.codeborne.selenide.ElementsCollection SS(global::java.lang.Object par0, global::java.lang.String par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$$16, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_SS16, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/By;)Lcom/codeborne/selenide/ElementsCollection;")]
-        public static global::com.codeborne.selenide.ElementsCollection $$(global::java.lang.Object par0) {
+        public static global::com.codeborne.selenide.ElementsCollection SS(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$$17, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_SS17, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/By;)Lcom/codeborne/selenide" +
             "/ElementsCollection;")]
-        public static global::com.codeborne.selenide.ElementsCollection $$(global::java.lang.Object par0, global::java.lang.Object par1) {
+        public static global::com.codeborne.selenide.ElementsCollection SS(global::java.lang.Object par0, global::java.lang.Object par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$$18, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_SS18, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)Lcom/codeborne/selenide/ElementsCollection;")]
-        public static global::com.codeborne.selenide.ElementsCollection $$(global::java.lang.String par0) {
+        public static global::com.codeborne.selenide.ElementsCollection SS(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$$19, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_SS19, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
             }
         }
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/Collection;)Lcom/codeborne/selenide/ElementsCollection;")]
-        public static global::com.codeborne.selenide.ElementsCollection $$(global::java.util.Collection par0) {
+        public static global::com.codeborne.selenide.ElementsCollection SS(global::java.util.Collection par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.ThreadEnv;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_$$20, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Collection>(@__env, par0)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.codeborne.selenide.ElementsCollection>(@__env, @__env.CallStaticObjectMethodPtr(global::com.codeborne.selenide.Selenide.staticClass, global::com.codeborne.selenide.Selenide.j4n_SS20, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Collection>(@__env, par0)));
             }
         }
         
