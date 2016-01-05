@@ -8,10 +8,9 @@ artifacts
 .DS_Store
 .vs
 ._.DS_Store
-[Bb]in
-[Db]ebug*/
+Debug*/
 obj/
-[Rr]elease*/
+Release*/
 _ReSharper*/
 _NCrunch_*/
 *.ncrunchsolution
