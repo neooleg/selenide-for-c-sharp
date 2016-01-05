@@ -14,6 +14,75 @@ namespace com.codeborne.selenide {
     #region Component Designer generated code 
     [global::net.sf.jni4net.attributes.JavaInterfaceAttribute()]
     public partial interface SelenideElement {
+
+        global::java.util.List findElements(global::java.lang.Object par0);
+        global::java.lang.Object findElement(global::java.lang.Object par0);
+
+        global::java.lang.Object getScreenshotAs(global::java.lang.Object par0);
+        void clear();
+
+        global::java.lang.Object getLocation();
+        global::java.lang.Object getSize();
+
+        void submit();
+
+        global::java.lang.String getAttribute(global::java.lang.String par0);
+
+        bool isEnabled();
+
+        bool isDisplayed();
+
+        void click();
+
+        void sendKeys(global::java.lang.CharSequence[] par0);
+
+        global::java.lang.String getTagName();
+
+        bool isSelected();
+
+        global::java.lang.String getCssValue(global::java.lang.String par0);
+
+        global::java.lang.String getText();
+
+        global::java.lang.Object findElementByLinkText(global::java.lang.String par0);
+
+        global::java.util.List findElementsByLinkText(global::java.lang.String par0);
+
+
+        global::java.lang.Object findElementByPartialLinkText(global::java.lang.String par0);
+
+        global::java.util.List findElementsByPartialLinkText(global::java.lang.String par0);
+
+        global::java.lang.Object findElementById(global::java.lang.String par0);
+
+        global::java.util.List findElementsById(global::java.lang.String par0);
+
+        global::java.lang.Object findElementByName(global::java.lang.String par0);
+
+        global::java.util.List findElementsByName(global::java.lang.String par0);
+
+        global::java.lang.Object findElementByTagName(global::java.lang.String par0);
+
+        global::java.util.List findElementsByTagName(global::java.lang.String par0);
+
+        global::java.lang.Object findElementByClassName(global::java.lang.String par0);
+
+        global::java.util.List findElementsByClassName(global::java.lang.String par0);
+
+        global::java.lang.Object findElementByCssSelector(global::java.lang.String par0);
+
+        global::java.util.List findElementsByCssSelector(global::java.lang.String par0);
+
+        global::java.lang.Object findElementByXPath(global::java.lang.String par0);
+
+        global::java.util.List findElementsByXPath(global::java.lang.String par0);
+
+        global::java.lang.Object getWrappedDriver();
+
+        global::java.lang.Object getWrappedElement();
+
+        global::java.lang.Object getCoordinates();
+
         
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Ljava/lang/String;")]
         global::java.lang.String name();
@@ -1253,7 +1322,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElements(global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElements(global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1265,7 +1334,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElement(global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElement(global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1277,7 +1346,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).getScreenshotAs(global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.lang.Object>(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.getScreenshotAs(global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.lang.Object>(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1288,7 +1357,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.Wrap(@__envp);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            ((global::java.lang.Object)(@__real)).clear();
+            @__real.clear();
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
         }
         
@@ -1299,7 +1368,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getLocation());
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getLocation());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1311,7 +1380,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getSize());
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getSize());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1323,7 +1392,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getAttribute(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getAttribute(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1334,7 +1403,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.Wrap(@__envp);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            ((global::java.lang.Object)(@__real)).submit();
+            @__real.submit();
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
         }
         
@@ -1345,7 +1414,7 @@ namespace com.codeborne.selenide {
             bool @__return = default(bool);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = ((bool)(((global::java.lang.Object)(@__real)).isDisplayed()));
+            @__return = ((bool)(@__real.isDisplayed()));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1356,7 +1425,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.Wrap(@__envp);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            ((global::java.lang.Object)(@__real)).click();
+            @__real.click();
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
         }
         
@@ -1366,7 +1435,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.jni.JNIEnv @__env = global::net.sf.jni4net.jni.JNIEnv.Wrap(@__envp);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            ((global::java.lang.Object)(@__real)).sendKeys(global::net.sf.jni4net.utils.Convertor.ArrayFullJ2C<global::java.lang.CharSequence[], global::java.lang.CharSequence>(@__env, par0));
+            @__real.sendKeys(global::net.sf.jni4net.utils.Convertor.ArrayFullJ2C<global::java.lang.CharSequence[], global::java.lang.CharSequence>(@__env, par0));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
         }
         
@@ -1377,7 +1446,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getTagName());
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getTagName());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1389,7 +1458,7 @@ namespace com.codeborne.selenide {
             bool @__return = default(bool);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = ((bool)(((global::java.lang.Object)(@__real)).isSelected()));
+            @__return = ((bool)(@__real.isSelected()));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1401,7 +1470,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getCssValue(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getCssValue(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1413,7 +1482,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(((global::java.lang.Object)(@__real)).getText());
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongCp2J(@__real.getText());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1425,7 +1494,7 @@ namespace com.codeborne.selenide {
             bool @__return = default(bool);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = ((bool)(((global::java.lang.Object)(@__real)).isEnabled()));
+            @__return = ((bool)(@__real.isEnabled()));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1437,7 +1506,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1449,7 +1518,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1461,7 +1530,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByPartialLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByPartialLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1473,7 +1542,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByPartialLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByPartialLinkText(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1485,7 +1554,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementById(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementById(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1497,7 +1566,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsById(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsById(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1509,7 +1578,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1521,7 +1590,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1533,7 +1602,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByTagName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByTagName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1545,7 +1614,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByTagName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByTagName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1557,7 +1626,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByClassName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByClassName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1569,7 +1638,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByClassName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByClassName(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1581,7 +1650,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByCssSelector(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByCssSelector(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1593,7 +1662,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByCssSelector(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByCssSelector(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1605,7 +1674,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).findElementByXPath(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.findElementByXPath(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1617,7 +1686,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, ((global::java.lang.Object)(@__real)).findElementsByXPath(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.util.List>(@__env, @__real.findElementsByXPath(global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, par0)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1629,7 +1698,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).getWrappedDriver());
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.getWrappedDriver());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1641,7 +1710,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).getWrappedElement());
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.getWrappedElement());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
@@ -1653,7 +1722,7 @@ namespace com.codeborne.selenide {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::com.codeborne.selenide.SelenideElement @__real = global::net.sf.jni4net.utils.Convertor.FullJ2C<global::com.codeborne.selenide.SelenideElement>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, ((global::java.lang.Object)(@__real)).getCoordinates());
+            @__return = global::net.sf.jni4net.utils.Convertor.FullC2J<global::java.lang.Object>(@__env, @__real.getCoordinates());
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
