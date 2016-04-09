@@ -23,6 +23,6 @@ artifacts\proxygen.exe %RootDirectory%artifacts\bin\selenide-3.0.jar -wd %RootDi
 C:\WINDOWS\Microsoft.NET\Framework\%MSBuildVersion%\MSBuild %RootDirectory%artifacts\proxies\clr\selenide-3.0.proxies.clr.csproj
 
 :: Demo Test app ::
-::C:\WINDOWS\Microsoft.NET\Framework\%MSBuildVersion%\MSBuild %RootDirectory%test\TestSelenideForNet\TestSelenideForNet.csproj /property:Configuration=Debug /property:Platform="x64"
+C:\WINDOWS\Microsoft.NET\Framework\%MSBuildVersion%\MSBuild %RootDirectory%test\TestSelenideForNet\TestSelenideForNet.csproj
 
 pause
