@@ -11,4 +11,4 @@ Thus, both Selenide and Selenide for C# as well will not support newest browsers
 
 ## Minimum Software Requirements
 
-1. Visual Studio 2015
+1. Visual Studio 2015 (because of C# 6.0)
