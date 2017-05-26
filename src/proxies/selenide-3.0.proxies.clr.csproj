@@ -42,9 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="com\codeborne\selenide\CollectionCondition.generated.cs" />
     <Compile Include="com\codeborne\selenide\collections\ExactTexts.generated.cs" />
     <Compile Include="com\codeborne\selenide\collections\ListSize.generated.cs" />
+    <Compile Include="com\codeborne\selenide\collections\SizeGreaterThan.generated.cs" />
+    <Compile Include="com\codeborne\selenide\collections\SizeGreaterThanOrEqual.generated.cs" />
+    <Compile Include="com\codeborne\selenide\collections\SizeLessThan.generated.cs" />
+    <Compile Include="com\codeborne\selenide\collections\SizeLessThanOrEqual.generated.cs" />
+    <Compile Include="com\codeborne\selenide\collections\SizeNotEqual.generated.cs" />
     <Compile Include="com\codeborne\selenide\collections\Texts.generated.cs" />
     <Compile Include="com\codeborne\selenide\Command.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\Append.generated.cs" />
@@ -66,6 +74,7 @@
     <Compile Include="com\codeborne\selenide\commands\GetName.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\GetParent.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\GetSelectedOption.generated.cs" />
+    <Compile Include="com\codeborne\selenide\commands\GetSelectedOptions.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\GetSelectedText.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\GetSelectedValue.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\GetText.generated.cs" />
@@ -79,8 +88,9 @@
     <Compile Include="com\codeborne\selenide\commands\PressEscape.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\PressTab.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\ScrollTo.generated.cs" />
-    <Compile Include="com\codeborne\selenide\commands\SelectOptionByText.generated.cs" />
+    <Compile Include="com\codeborne\selenide\commands\SelectOptionByTextOrIndex.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\SelectOptionByValue.generated.cs" />
+    <Compile Include="com\codeborne\selenide\commands\SelectOptionContainingText.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\SelectRadio.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\SetSelected.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\SetValue.generated.cs" />
@@ -91,6 +101,7 @@
     <Compile Include="com\codeborne\selenide\commands\ShouldNotBe.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\ShouldNotHave.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\TakeScreenshot.generated.cs" />
+    <Compile Include="com\codeborne\selenide\commands\TakeScreenshotAsImage.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\ToString.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\ToWebElement.generated.cs" />
     <Compile Include="com\codeborne\selenide\commands\UploadFile.generated.cs" />
@@ -109,12 +120,16 @@
     <Compile Include="com\codeborne\selenide\ex\InvalidStateException.generated.cs" />
     <Compile Include="com\codeborne\selenide\ex\JavaScriptErrorsFound.generated.cs" />
     <Compile Include="com\codeborne\selenide\ex\ListSizeMismatch.generated.cs" />
+    <Compile Include="com\codeborne\selenide\ex\SoftAssertionError.generated.cs" />
     <Compile Include="com\codeborne\selenide\ex\TextsMismatch.generated.cs" />
     <Compile Include="com\codeborne\selenide\ex\UIAssertionError.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\BySelectorCollection.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\Cleanup.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\CollectionElement.generated.cs" />
+    <Compile Include="com\codeborne\selenide\impl\CollectionElementByCondition.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\Describe.generated.cs" />
+    <Compile Include="com\codeborne\selenide\impl\DownloadFileWithHttpRequest.generated.cs" />
+    <Compile Include="com\codeborne\selenide\impl\DownloadFileWithProxyServer.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\ElementFinder.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\Events.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\FileDownloader.generated.cs" />
@@ -126,6 +141,7 @@
     <Compile Include="com\codeborne\selenide\impl\SelenideElementListIterator.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\SelenideElementListProxy.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\SelenideFieldDecorator.generated.cs" />
+    <Compile Include="com\codeborne\selenide\impl\Waiter.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\WebDriverContainer.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\WebDriverThreadLocalContainer.generated.cs" />
     <Compile Include="com\codeborne\selenide\impl\WebElementsCollection.generated.cs" />
@@ -144,22 +160,26 @@
     <Compile Include="com\codeborne\selenide\logevents\SelenideLog.generated.cs" />
     <Compile Include="com\codeborne\selenide\logevents\SelenideLogger.generated.cs" />
     <Compile Include="com\codeborne\selenide\logevents\SimpleReport.generated.cs" />
+    <Compile Include="com\codeborne\selenide\proxy\FileDownloadFilter.generated.cs" />
+    <Compile Include="com\codeborne\selenide\proxy\RequestSizeWatchdog.generated.cs" />
+    <Compile Include="com\codeborne\selenide\proxy\ResponseSizeWatchdog.generated.cs" />
+    <Compile Include="com\codeborne\selenide\proxy\SelenideProxyServer.generated.cs" />
     <Compile Include="com\codeborne\selenide\Screenshots.generated.cs" />
     <Compile Include="com\codeborne\selenide\Selectors.generated.cs" />
     <Compile Include="com\codeborne\selenide\Selenide.generated.cs" />
     <Compile Include="com\codeborne\selenide\SelenideElement.generated.cs" />
+    <Compile Include="com\codeborne\selenide\SelenidePageFactory.generated.cs" />
     <Compile Include="com\codeborne\selenide\SelenideTargetLocator.generated.cs" />
+    <Compile Include="com\codeborne\selenide\testng\annotations\Report.generated.cs" />
     <Compile Include="com\codeborne\selenide\testng\BrowserPerClass.generated.cs" />
     <Compile Include="com\codeborne\selenide\testng\BrowserPerTest.generated.cs" />
+    <Compile Include="com\codeborne\selenide\testng\GlobalTextReport.generated.cs" />
     <Compile Include="com\codeborne\selenide\testng\ScreenShooter.generated.cs" />
     <Compile Include="com\codeborne\selenide\testng\SoftAsserts.generated.cs" />
     <Compile Include="com\codeborne\selenide\testng\TextReport.generated.cs" />
     <Compile Include="com\codeborne\selenide\WebDriverProvider.generated.cs" />
     <Compile Include="com\codeborne\selenide\WebDriverRunner.generated.cs" />
     <Compile Include="com\codeborne\selenide\webdriver\WebDriverFactory.generated.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
