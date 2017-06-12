@@ -55,8 +55,9 @@
     <Reference Include="jni4net.n-0.8.9.0">
       <HintPath>..\..\artifacts\jni4net.n-0.8.9.0.dll</HintPath>
     </Reference>
-    <Reference Include="selenide-3.0.proxies.clr">
-      <HintPath>..\..\artifacts\selenide-3.0.proxies.clr.dll</HintPath>
+    <Reference Include="selenide-4.4.3.j4n, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\artifacts\selenide-4.4.3.j4n.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

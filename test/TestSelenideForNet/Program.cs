@@ -25,7 +25,7 @@ namespace TestSelenideForNet
 
         private static void ConfigureJni4NetSelenide()
         {
-            var bridgeSetup = new BridgeSetup();
+            var bridgeSetup = new BridgeSetup("-Dselenide.browser=chrome", @"-Dwebdriver.chrome.driver=D:\trash\selenide\chromedriver.exe", @"-Dlog4j.configurationFile=D:\trash\selenide\log4j2.xml");
             bridgeSetup.Verbose = true;
             bridgeSetup.AddAllJarsClassPath(".");
             Bridge.CreateJVM(bridgeSetup);
